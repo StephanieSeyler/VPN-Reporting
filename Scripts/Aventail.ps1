@@ -179,7 +179,7 @@ try {
         New-AventailTable -table $table -SSL $SSLArray[$i] -Path $config.APITargets[$i].TableLocation
         $table = Import-Csv -path $config.APITargets[$i].TableLocation
         $TableHash[$config.APITargets[$i].ChartName] = New-PsWriteAventailTable -table $table `
-             -title $config.APITargets[$i].ChartName | Out-String
+            -title $config.APITargets[$i].ChartName | Out-String
         $dataLog.writeLine("$(get-date -uformat '%Y%m%d %H%M%S'),""Success Log"",""Created hashtable for $($config.APITargets[$i].ChartName)""")     
         $LineHash[$config.APITargets[$i].LineName] = $table.ActiveUsers | Select-Object -first 48
         $dataLog.writeLine("$(get-date -uformat '%Y%m%d %H%M%S'),""Success Log"",""Created DataTable for $($config.APITargets[$i].ChartName)""")
