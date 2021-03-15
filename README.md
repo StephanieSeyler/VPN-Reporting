@@ -1,7 +1,6 @@
 # SonicWall Reporting
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://choosealicense.com/licenses/mit/)
-[![version](https://img.shields.io/badge/Production%20Version-0.4.1-brightgreen)]()
-[![Mainteneance](https://img.shields.io/maintenance/yes/2020?style=plastic)]()
+[![Mainteneance](https://img.shields.io/maintenance/yes/2021?style=plastic)]()
 [![Powershell](https://img.shields.io/badge/Powershell-v%205.1-orange)](https://www.microsoft.com/en-us/download/details.aspx?id=54616)
 [![Social](https://img.shields.io/twitter/follow/StephSeyler?style=social)](https://img.shields.io/twitter/follow/StephSeyler?style=social)
 
