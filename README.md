@@ -25,7 +25,7 @@ Install-Module -Name Dashimo -AllowClobber -Force
 ## RoadMap
 
 ## Releases
-v0.5.0 Rebuilt code base to run everything through a configuration file.
+v1.0.0 Rebuilt code base to run everything through a configuration file.
 
 ## Support
 

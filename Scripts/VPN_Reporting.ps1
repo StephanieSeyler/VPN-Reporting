@@ -1,6 +1,6 @@
 ﻿# Stephanie Seyler
 # 2021-03-14
-# v0.5.0
+# v1.0.0
 # RES
 function New-AventailTable {
   <#
@@ -89,7 +89,8 @@ $errorCount = 0
 try {
   $config = Get-Content '.\scripts\config.json' | Out-String | ConvertFrom-Json
 }
-catch {write-host "Failed to import global Config file. Please locate config file in scripts folder"}
+catch { write-host "Failed to import global Config file. Please locate config file in VPN-Reporting\scripts folder"
+  exit(0)}
 
 # Create Logging
 try {
@@ -135,6 +136,7 @@ try{
 }
 Catch{}
 
+# Import Credentials and assign to a hash table to use in API Calls
 try {
   $Hash =@{}
   foreach($var in $credentialList){
