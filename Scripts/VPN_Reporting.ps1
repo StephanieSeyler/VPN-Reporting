@@ -80,7 +80,6 @@ function New-PsWriteAventailTable {
   return($output)
 }
 
-
 # Create Environmental Variables that will be used throughout
 $homepath = (split-path -path $PSScriptRoot) 
 Set-Location -Path $homepath -PassThru
