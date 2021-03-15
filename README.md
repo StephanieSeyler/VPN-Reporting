@@ -3,6 +3,7 @@
 [![version](https://img.shields.io/badge/Production%20Version-0.4.1-brightgreen)]()
 [![Mainteneance](https://img.shields.io/maintenance/yes/2020?style=plastic)]()
 [![Powershell](https://img.shields.io/badge/Powershell-v%205.1-orange)](https://www.microsoft.com/en-us/download/details.aspx?id=54616)
+[![Social](https://img.shields.io/twitter/follow/StephSeyler?style=social)](https://img.shields.io/twitter/follow/StephSeyler?style=social)
 
 Reporting on the Current Usage statistics of our SonicWall Appliances Globally.
 Leverages the SonicWall API using Curl to make API Calls
