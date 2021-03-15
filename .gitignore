@@ -1,0 +1,12 @@
+*.log
+*.csv
+*.json
+*.xml
+Outgoing Files/output.html
+Tables/table01.csv
+Tables/table02.csv
+Tables/table03.csv
+Temp/SSL01.json
+Temp/SSL02.json
+Temp/SSL03.json
+Tables/table02.csv
