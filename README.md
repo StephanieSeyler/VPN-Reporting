@@ -23,9 +23,7 @@ Line Chart of past day of activity
 Record of historical usage data of the VPN appliances
 
 ## Usage
-Code is ran from ps1 file in \scripts\ folder
-Configuration of the API targets and other data is stored in \scripts\config.json
-Amount of VPN appliances monitored can be scaled up and down based on entries in config file
+Code is ran from ps1 file in \scripts\ folder with Configuration of the API targets and other data is stored in \scripts\config.json. TheAmount of VPN appliances monitored can be scaled up and down based on entries in config file
 
 ## RoadMap
 Implement grouping of data on line Chart - Planned
