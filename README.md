@@ -18,19 +18,21 @@ Install-Module -Name Dashimo -AllowClobber -Force
 ```
 
 ## Features
+Line Chart of past day of activity
+Record of historical usage data of the VPN appliances
 
 ## Usage
-
+Build a single pane of glass dashboard to view licensing and other information about your Sonicwall VPN appliances
 
 ## RoadMap
+Implement grouping of data on line Chart - Planned
+
 
 ## Releases
 v1.0.0 Rebuilt code base to run everything through a configuration file.
 
-## Support
-
 ## Authors
-Stephanie Seyler 
+Stephanie Seyler  
 
 ## Project Status
 in progress
