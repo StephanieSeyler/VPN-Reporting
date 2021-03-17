@@ -1,6 +1,5 @@
 *.log
 *.csv
-*.json
 *.xml
 Outgoing Files/output.html
 Tables/table01.csv
