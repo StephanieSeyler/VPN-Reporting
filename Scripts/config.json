@@ -1,0 +1,66 @@
+{
+  "APITargets": [
+    {
+      "TargetName" : "USA 01",
+      "TargetURI" : "https://172.0.0.1:8443/Console/SystemStatus?forwardApplianceName=Hostname1",
+      "credentialName" : "Credentials\\USA.xml",
+      "outputFile" : "temp\\SSL01.json",
+      "TableLocation" : "tables\\table01.csv",
+      "ChartName" : "USA 01",
+      "LineName" : "USA 01",
+      "LineGroup" : "USA Group"
+    },
+    {
+      "TargetName" : "USA 02",
+      "TargetURI" : "https://172.0.0.2:8443/Console/SystemStatus?forwardApplianceName=hostname2",
+      "credentialName" : "Credentials\\USA.xml",
+      "outputFile" : "temp\\SSL02.json",
+      "TableLocation" : "tables\\table02.csv",
+      "ChartName" : "USA 02",
+      "LineName" : "USA 02",
+      "LineGroup" : "USA Group"
+    },
+    {
+      "TargetName" : "EMEA",
+      "TargetURI" : "https://172.0.0.3:8443/Console/SystemStatus",
+      "credentialName" : "Credentials\\EMEA.xml",
+      "outputFile" : "temp\\SSL03.json",
+      "TableLocation" : "tables\\table03.csv",
+      "ChartName" : "EMEA",
+      "LineName" : "EMEA",
+      "LineGroup" : "EMEA Group"
+    },
+    {
+      "TargetName" : "EMEA_Reading",
+      "TargetURI" : "https://172.0.0.4:8443/Console/SystemStatus",
+      "credentialName" : "Credentials\\EMEA_Reading.xml",
+      "outputFile" : "temp\\SSL04.json",
+      "TableLocation" : "tables\\table04.csv",
+      "ChartName" : "EMEA_Reading",
+      "LineName" : "EMEA_Reading",
+      "LineGroup" : "EMEA Group"
+    }
+  ],
+  "reportAttributes": [
+    {
+      "ReportTitle" : "VPN Appliances",
+      "ReportOutput" : "Outgoing Files\\output.html",
+      "ReportHeader" : "Usage Statistics"
+    }
+  ],
+  "ChartAttributes": [
+    {
+      "ChartTitle" : "VPN Appliances",
+      "titleAlignment" : "Center"
+    }
+  ],
+  "Admin": [
+    {
+      "LicenseAlertNumber" : "300",
+      "SMTPServer" : "SMTP.contoso.com",
+      "ErrorFromEmail" : "VPN_Reporting_Sever@contoso.com",
+      "ErrorToEmail" : "admin@contoso.com",
+      "LogFileLocation" : "\\History\\SonicWall_Reporting_log.csv"
+    }
+  ]
+}
