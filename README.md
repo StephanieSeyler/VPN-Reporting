@@ -9,7 +9,7 @@ Reporting and Charts are built in Powershell.
 
 ## Installation
 
-1. Download the Repository from the RES Infrastructure Project page that will contain all scripts and supporting files.
+1. Download the Repository 
 2. Install Dashimo module & Dashimo
 ```Powershell
 Install-Module -Name PSWriteHTML -AllowClobber -Force
